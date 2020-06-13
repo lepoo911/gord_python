@@ -1,4 +1,4 @@
-def myVerify(card_number):
+def verify(card_number):
 
     # 1
     if (int(card_number[0])) != 4:
@@ -27,6 +27,6 @@ def myVerify(card_number):
     return True
 
 input = "4037-6000-0000"  # change this as you test your function
-output = myVerify(input)  # invoke the method using a test input
+output = verify(input)  # invoke the method using a test input
 print(output)  # prints the output of the function
 # do not remove this line!
